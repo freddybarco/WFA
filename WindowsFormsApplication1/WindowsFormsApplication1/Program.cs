@@ -18,7 +18,7 @@ namespace WindowsFormsApplication1
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Form1 nuevo = new Form1();
-            nuevo.read();
+            nuevo.read(true);
             //nuevo.closeprocess();
             Application.Run(nuevo);
 
